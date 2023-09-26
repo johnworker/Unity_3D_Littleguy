@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2160.12, g: 2264.4668, b: 3287.914, a: 1}
+  m_IndirectSpecularColor: {r: 2158.5684, g: 2263.873, b: 3290.5, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -719,7 +719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533183443}
   m_LocalRotation: {x: -0.73880833, y: 0, z: 0, w: 0.6739156}
-  m_LocalPosition: {x: -0, y: 0.724, z: 0.0083}
+  m_LocalPosition: {x: 0, y: 0.727, z: 0.008}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 3.56
+  m_ShapeRadius: 0
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -859,7 +859,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 0.8832874, b: 0.3537736, a: 1}
+  m_Color: {r: 1, g: 0.82769203, b: 0.35294116, a: 1}
   m_Intensity: 5538097
   m_Range: 10
   m_SpotAngle: 68.3
@@ -908,7 +908,7 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 3.56
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &638923083 stripped
 Transform:
