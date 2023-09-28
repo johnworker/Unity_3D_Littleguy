@@ -61,15 +61,20 @@ public class Enemy : MonoBehaviour
     {
         canAttack = false;
         agent.isStopped = true;
+
+        Vector3 look = target.position;
+        look.y = transform.position.y;
+        transform.LookAt(look);
+
         ani.SetTrigger(parAttack);
         yield return new WaitForSeconds(showAttackAeraTime);
         goAttackAera.SetActive(true);
         yield return new WaitForSeconds(showAttackAeraDurationTime);
         goAttackAera.SetActive(false);
+        ani.SetBool(parWalk, false);
         yield return new WaitForSeconds(attackCD);
         canAttack = true;
         agent.isStopped = false;
-        ani.SetBool(parWalk, false);
     }
 
     private IEnumerator Test() 
